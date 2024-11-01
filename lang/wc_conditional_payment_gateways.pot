@@ -1,0 +1,727 @@
+# Copyright (C) 2024 WP Super Admins
+# This file is distributed under the same license as the WooCommerce Conditional Payment Methods plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WooCommerce Conditional Payment Methods 1.16.3-beta.1\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wrapper-plugin\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-07-24T20:37:34+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Conditional Payment Methods"
+msgstr ""
+
+#. Plugin URI of the plugin
+msgid "https://wpsuperadmins.com/plugins/woocommerce-conditional-payment-gateways/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=web"
+msgstr ""
+
+#. Description of the plugin
+msgid "Enable/disable payment gateways based on cart conditions"
+msgstr ""
+
+#. Author of the plugin
+msgid "WP Super Admins"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://wpsuperadmins.com/?utm_source=wp-admin&utm_campaign=plugins-list&utm_medium=web&utm_term=conditional-payment-gateways"
+msgstr ""
+
+#: backend/premium-teasers.php:179
+msgid "<p><b>Go Premium</b>. You can use all conditions, including: Product information (category, dimensions), Shipping methods, User information (zip, state, city, address), Taxes, You can rotate payment methods by date or sequentially by order, and more. <a href=\"%s\" target=\"_blank\" class=\"wccpg-go-premium-link\">%s</a></p>"
+msgstr ""
+
+#: backend/settings-page.php:35
+#: views/backend/settings-page-intro.php:12
+msgid "Tutorials"
+msgstr ""
+
+#: conditional-payment-gateways.php:70
+msgid "Try premium plugin for FREE - 7 Days"
+msgstr ""
+
+#: inc/rotate-gateways/rotate-payment-methods.php:223
+msgid "For example. payment method 1 for order 1, payment method 2 for order 2, etc."
+msgstr ""
+
+#: inc/rotate-gateways/rotate-payment-methods.php:240
+msgid "Tip. You can send a notification to specific users when the payment gateway is deactivated after the consecutive failures. <a href=\"%s\" target=\"_blank\">Configure it here</a>."
+msgstr ""
+
+#: inc/rotate-gateways/rotate-payment-methods.php:248
+msgid "Rotate all payment <br>methods per order?"
+msgstr ""
+
+#: inc/rotate-gateways/rotate-payment-methods.php:252
+msgid "Disable a payment gateway<br>after x failed orders"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:33
+msgid "Failed payment gateway"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:37
+msgid "The <b>WooCommerce Conditional Payment Methods</b> plugin lets you deactivate gateways when they have %d consecutive failed orders. This email will be sent when a payment gateway is deactivated for that reason."
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:63
+msgid "Please review your merchant gateway {gateway_title}"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:73
+msgid "#{consecutive_failures} consecutive failures detected"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:135
+msgid "{consecutive_failures} failed payments in a row were detected for the payment gateway \"{gateway_title}\". Please <a href=\"%s\" target=\"_blank\">review your merchant gateway</a>."
+msgstr ""
+
+#. translators: %s: list of placeholders
+#: inc/rotate-gateways/wc-failed-gateway-email.php:143
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:146
+msgid "Enable/Disable"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:148
+msgid "Enable this email notification"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:152
+msgid "Recipient(s)"
+msgstr ""
+
+#. translators: %s: WP admin email
+#: inc/rotate-gateways/wc-failed-gateway-email.php:155
+msgid "Enter recipients (comma separated) for this email. Defaults to %s."
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:161
+msgid "Subject"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:169
+msgid "Email heading"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:177
+msgid "Additional content"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:178
+msgid "Text to appear below the main email content."
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:180
+msgid "N/A"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:186
+msgid "Email type"
+msgstr ""
+
+#: inc/rotate-gateways/wc-failed-gateway-email.php:188
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: modules/core/backend/conditions-metaboxes.php:17
+msgid "Payment gateways"
+msgstr ""
+
+#: modules/core/backend/conditions-metaboxes.php:20
+#: modules/core/backend/settings.php:56
+#: modules/core/views/backend/settings-views.php:99
+msgid "Conditions"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:16
+msgid "Payment gateways conditions"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:17
+msgid "Add new condition"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:18
+msgid "Edit condition"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:52
+msgid "Invalid user role"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:73
+msgid "Invalid post type deleting"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:80
+msgid "An error ocurred while deleting"
+msgstr ""
+
+#: modules/core/backend/conditions-post-type.php:84
+msgid "Condition succefully deleted"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/contains-product.php:10
+#: modules/core/backend/conditions/user-details/already bought-product.php:10
+#: modules/core/inc/enqueues.php:40
+#: modules/core/inc/helpers.php:331
+msgid "Select product"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/contains-product.php:27
+msgid "Contains product"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/contains-shipping-class.php:13
+msgid "Contains shipping class"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/contains-shipping-class.php:21
+msgid "Select shipping class"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/coupon-discounts-total.php:13
+msgid "Coupon Discounts total"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/coupon.php:26
+msgid "Coupon"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/coupon.php:42
+msgid "Select coupon"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/currency.php:20
+msgid "Currency"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/currency.php:29
+#: modules/core/backend/conditions/cart/global-cart-subsite.php:30
+#: modules/core/backend/conditions/cart/is-order-pay.php:24
+#: modules/core/backend/conditions/cart/order-status.php:27
+#: modules/core/backend/conditions/cart/repeat-purchase.php:24
+#: modules/core/backend/conditions/cart/requested-invoice.php:24
+#: modules/core/backend/conditions/cart/shipping-method.php:25
+#: modules/core/backend/conditions/date/week-day.php:33
+#: modules/core/backend/conditions/user-details/is-sales-agent.php:28
+#: modules/core/backend/conditions/user-details/previous-order-status.php:26
+msgid "Select"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/custom-field.php:15
+msgid "Custom field : %s"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/global-cart-subsite.php:13
+msgid "Global cart: Subsite"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/is-order-pay.php:13
+msgid "Is order pay page?"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/order-status.php:13
+msgid "Order status"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/order-status.php:21
+msgid "It is a new order"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/quantity.php:13
+msgid "Quantity"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/repeat-purchase.php:13
+msgid "Is buying a product for a second time?"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/requested-invoice.php:13
+msgid "Timologia: Requested invoice?"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-method.php:17
+msgid "Shipping method"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-method.php:214
+msgid "Shipping"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-method.php:318
+msgid "Everywhere Else"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-method.php:352
+msgid "Rule"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-methods-count.php:13
+msgid "Shipping methods count"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/shipping-total.php:13
+msgid "Shipping total"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/subtotal-ext-taxes.php:13
+msgid "Subtotal exc. taxes"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/subtotal.php:13
+msgid "Subtotal"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/tax.php:13
+msgid "Tax"
+msgstr ""
+
+#: modules/core/backend/conditions/cart/total.php:13
+msgid "Total"
+msgstr ""
+
+#: modules/core/backend/conditions/date/full-date.php:10
+msgid "Date (YYYY-MM-DD)"
+msgstr ""
+
+#: modules/core/backend/conditions/date/hour.php:13
+msgid "Hour of the day (number from 0 to 23)"
+msgstr ""
+
+#: modules/core/backend/conditions/date/month-day.php:13
+msgid "Day of the month (number from 1 to 31)"
+msgstr ""
+
+#: modules/core/backend/conditions/date/week-day.php:13
+msgid "Day of the week"
+msgstr ""
+
+#: modules/core/backend/conditions/product/backorder.php:13
+msgid "Is on backorder?"
+msgstr ""
+
+#: modules/core/backend/conditions/product/backorder.php:22
+#: modules/core/backend/conditions/product/buying-from-multiple-categories.php:22
+msgid "Select -"
+msgstr ""
+
+#: modules/core/backend/conditions/product/buying-from-multiple-categories.php:13
+msgid "Buying from multiple categories?"
+msgstr ""
+
+#: modules/core/backend/conditions/product/category.php:24
+msgid "Category"
+msgstr ""
+
+#: modules/core/backend/conditions/product/category.php:41
+msgid "Select category"
+msgstr ""
+
+#: modules/core/backend/conditions/product/height.php:13
+msgid "Height"
+msgstr ""
+
+#: modules/core/backend/conditions/product/length.php:13
+msgid "Length"
+msgstr ""
+
+#: modules/core/backend/conditions/product/product-sku.php:10
+msgid "Contains Product SKU"
+msgstr ""
+
+#: modules/core/backend/conditions/product/taxonomy-term-count.php:17
+msgid "Taxonomy term count: %s"
+msgstr ""
+
+#: modules/core/backend/conditions/product/taxonomy.php:28
+msgid "Taxonomy: %s"
+msgstr ""
+
+#: modules/core/backend/conditions/product/taxonomy.php:45
+#: modules/core/backend/conditions/product/variation-attribute.php:45
+msgid "Select %s"
+msgstr ""
+
+#: modules/core/backend/conditions/product/variation-attribute.php:28
+msgid "Variation_Attribute: %s"
+msgstr ""
+
+#: modules/core/backend/conditions/product/variation-id.php:10
+msgid "Variation IDs"
+msgstr ""
+
+#: modules/core/backend/conditions/product/variation-sku.php:10
+msgid "Contains Variation SKU"
+msgstr ""
+
+#: modules/core/backend/conditions/product/vendor.php:19
+msgid "Vendor"
+msgstr ""
+
+#: modules/core/backend/conditions/product/vendor.php:32
+msgid "Select user"
+msgstr ""
+
+#: modules/core/backend/conditions/product/weight.php:13
+msgid "Weight"
+msgstr ""
+
+#: modules/core/backend/conditions/product/width.php:13
+msgid "Width"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/already bought-product.php:27
+msgid "Already purchased product"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-city.php:10
+msgid "Billing city"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-company.php:10
+msgid "Billing company"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-country.php:13
+msgid "Billing country"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-country.php:24
+msgid "Select billing country"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-email.php:10
+msgid "Billing email"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-state.php:10
+msgid "Billing state"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/billing-zipcode.php:10
+msgid "Billing zipcode"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/completed-orders-count-by-billing-email.php:13
+msgid "Completed orders count based on billing email"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/customer-email.php:10
+msgid "Customer email"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/days-since-registration-date.php:13
+msgid "Days since registration date"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/id.php:10
+msgid "User ID"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/ip.php:12
+msgid "IP"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/is-sales-agent.php:17
+msgid "Is sales agent buying a product for a customer?"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/orders-count-by-billing-email.php:13
+msgid "Previous orders count based on billing email"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/orders-count.php:13
+msgid "Previous orders from the logged in customer"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/pending-orders-count-by-billing-email.php:13
+msgid "Pending orders count based on billing email"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/previous-order-status.php:13
+msgid "Previous order's status"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/registration-date.php:10
+msgid "Registration date (YYYY-MM-DD)"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-city.php:10
+msgid "Shipping city"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-company.php:10
+msgid "Shipping company"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-country.php:13
+msgid "Shipping Country"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-country.php:24
+msgid "Select shipping country"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-state.php:10
+msgid "Shipping state"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/shipping-zipcode.php:10
+msgid "Shipping zipcode"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/user-role.php:13
+#: modules/core/inc/helpers.php:122
+msgid "User role"
+msgstr ""
+
+#: modules/core/backend/conditions/user-details/user-role.php:21
+msgid "Select role"
+msgstr ""
+
+#: modules/core/backend/settings.php:28
+msgid "Settings saved"
+msgstr ""
+
+#: modules/core/backend/settings.php:52
+msgid "Enable conditions"
+msgstr ""
+
+#: modules/core/backend/settings.php:60
+msgid "Message to display when zero <br>payment gateways are enabled"
+msgstr ""
+
+#: modules/core/backend/settings.php:81
+msgid "You can leave this empty to display the default message from WooCommerce."
+msgstr ""
+
+#: modules/core/inc/condition.php:76
+msgid "="
+msgstr ""
+
+#: modules/core/inc/condition.php:77
+msgid "!= (Not equal)"
+msgstr ""
+
+#: modules/core/inc/condition.php:78
+msgid "Equal to field"
+msgstr ""
+
+#: modules/core/inc/condition.php:79
+msgid "Not equal to field"
+msgstr ""
+
+#: modules/core/inc/condition.php:83
+msgid "<"
+msgstr ""
+
+#: modules/core/inc/condition.php:84
+msgid "<="
+msgstr ""
+
+#: modules/core/inc/condition.php:85
+msgid ">"
+msgstr ""
+
+#: modules/core/inc/condition.php:86
+msgid ">="
+msgstr ""
+
+#: modules/core/inc/condition.php:90
+msgid "Contains"
+msgstr ""
+
+#: modules/core/inc/condition.php:91
+msgid "Not contains"
+msgstr ""
+
+#: modules/core/inc/condition.php:92
+msgid "Appears in this list"
+msgstr ""
+
+#: modules/core/inc/condition.php:93
+msgid "Does not appear in this list"
+msgstr ""
+
+#: modules/core/inc/enqueues.php:37
+msgid "You have added a large number of AND conditions. Are you sure these conditions will be met together? If not, you should add them as OR conditions."
+msgstr ""
+
+#: modules/core/inc/enqueues.php:38
+msgid "Condition"
+msgstr ""
+
+#: modules/core/inc/enqueues.php:39
+#: modules/core/views/backend/conditions-metaboxes-html.php:50
+msgid "Group"
+msgstr ""
+
+#: modules/core/inc/enqueues.php:41
+msgid "Loading products ..."
+msgstr ""
+
+#: modules/core/inc/enqueues.php:42
+msgid "Products loaded"
+msgstr ""
+
+#: modules/core/inc/enqueues.php:43
+msgid "An error has ocurred while loading products"
+msgstr ""
+
+#: modules/core/inc/enqueues.php:44
+msgid "Go to conditions list"
+msgstr ""
+
+#: modules/core/inc/helpers.php:68
+msgid "Cart"
+msgstr ""
+
+#: modules/core/inc/helpers.php:71
+msgid "User details"
+msgstr ""
+
+#: modules/core/inc/helpers.php:74
+msgid "Product"
+msgstr ""
+
+#: modules/core/inc/helpers.php:77
+msgid "Date"
+msgstr ""
+
+#: modules/core/inc/helpers.php:118
+msgid "Zipcode"
+msgstr ""
+
+#: modules/core/inc/helpers.php:119
+msgid "City"
+msgstr ""
+
+#: modules/core/inc/helpers.php:120
+msgid "State"
+msgstr ""
+
+#: modules/core/inc/helpers.php:121
+msgid "Country"
+msgstr ""
+
+#: modules/core/inc/helpers.php:131
+msgid "In stock"
+msgstr ""
+
+#: modules/core/inc/helpers.php:132
+msgid "Out of stock"
+msgstr ""
+
+#: modules/core/inc/helpers.php:199
+msgid "Guest customer"
+msgstr ""
+
+#: modules/core/inc/helpers.php:204
+msgid "Registered customer"
+msgstr ""
+
+#: modules/core/inc/init.php:164
+msgid "%s (SKU: %s, ID: %s)"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:43
+msgid "Add 'Or' group"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:97
+msgid "condition"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:174
+msgid "What do you want to do?"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:175
+msgid "What happens when the conditions are met?"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:177
+msgid "Enable the payment method(s)"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:178
+msgid "Disable the payment method(s)"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:182
+msgid "Select the payment methods"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:188
+msgid "My gateway doesn't appear in the list"
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:189
+msgid "1. Enter the payment gateway keys separated by commas. How to get the gateway key? Open the settings page of the payment gateway and you will see the key in the URL in the section part. <a href=\"%s\" target=\"_blank\">Example</a>."
+msgstr ""
+
+#: modules/core/views/backend/conditions-metaboxes-html.php:192
+msgid "2. Maybe you don't have payment methods enabled. You can enable them on WooCommerce > Settings > Payments"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:33
+msgid "The conditions are deactivated. Check this option and save to activate them"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:61
+msgid "(Untitled condition)"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:73
+msgid "Edit"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:74
+msgid "Delete"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:88
+msgid "Active"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:88
+msgid "Inactive"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:98
+msgid "Title"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:100
+msgid "Add condition"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:108
+msgid "Status"
+msgstr ""
+
+#: modules/core/views/backend/settings-views.php:109
+msgid "Created"
+msgstr ""
+
+#: views/backend/settings-page-intro.php:2
+msgid "Need help? Contact us"
+msgstr ""
+
+#: views/backend/settings-page-intro.php:4
+msgid "My license"
+msgstr ""
+
+#: views/backend/settings-page-intro.php:15
+msgid "You can receive quick help. We have a live chat on our website and your support messages will be responded today"
+msgstr ""

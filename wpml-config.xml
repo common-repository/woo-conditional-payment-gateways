@@ -1,0 +1,10 @@
+<wpml-config>
+	<custom-types>
+		<custom-type translate="0">vg_gateway_condition</custom-type>
+	</custom-types>
+	<custom-fields>
+		<custom-field action="ignore">wccpg_or_groups</custom-field>
+		<custom-field action="ignore">wccpg_payment_gateways</custom-field>
+		<custom-field action="ignore">wccpg_is_payment_gateway_disabled</custom-field>
+	</custom-fields>
+</wpml-config>
